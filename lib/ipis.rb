@@ -9,6 +9,9 @@ module IPis
   class Lookup
     def initialize(args)
       @ips_to_lookup = args.map(&:strip).uniq
+      if @ips_to_lookup.size == 0
+        @ips_to_lookup = [''] # fix self
+      end
       @query_adapter = IPis::Queries::IPApi
       @formatter_adapter = IPis::Formatters::BaseFormatter
     end
