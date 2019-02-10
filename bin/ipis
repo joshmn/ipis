@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'ipis'
+
+lookup = IPis::Lookup.new(ARGV)
+lookup.run
