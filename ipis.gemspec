@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Josh Brody"]
   spec.email         = ["josh@josh.mn"]
 
-  spec.summary       = "Command line tool for ipinfo.io"
-  spec.description   = "Command line tool for ipinfo.io"
+  spec.summary       = "Command line tool for ip-api.com"
+  spec.description   = "Command line tool for ip-api.com"
   spec.homepage      = "https://github.com/joshmn/ipis"
 
   if spec.respond_to?(:metadata)
